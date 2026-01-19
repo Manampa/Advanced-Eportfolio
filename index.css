@@ -1,12 +1,20 @@
 * {
     background-color: rgb(230, 220, 173);
 }
+.orange {
+    color: rgb(255, 0, 0);
+}
 #landing__page {
     height: 100vh;
+    margin: 0px 32px;
 }
 nav {
+    height: 80px;
     display: flex;
     justify-content: space-between;
+}
+.nav__logo {
+    max-height: 100%;
 }
 .nav__links {
     display: flex;
@@ -16,6 +24,24 @@ nav {
 .nav__link {
     padding-right: 16px;
 }
-.orange {
-    color: rgb(255, 0, 0);
+.landing__container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    height: 90vh;
+    
+
+}
+.landing__description {
+    max-width: 40%;
+}
+.landing__title {
+    font-size: 60px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+.landing__parra {
+    font-size: 16px;
+    max-width: 60%;
 }
