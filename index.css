@@ -1,5 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
-    background-color: rgb(230, 220, 173);
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
@@ -12,31 +14,46 @@
     height: 100vh;
     margin: 0px 32px;
 }
+
+li {
+    list-style-type: none;
+}
+
+/* 
+
+NAVIGATION 
+
+*/
+
 nav {
-    height: 80px;
-    width: 100%;
-    max-width: 1200px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
-.nav__logo {
-    max-height: 100%;
-    display: flex;
-    align-items: center;
-}
-.nav__logo--img {
-    height: 40px; 
-    width: 40px;
+#personal-logo {
+    height: 50px;
+    width: 50px;
+    filter: invert(1);
 }
 .nav__link--list {
     display: flex;
-    align-items: center;
-    list-style: none;
 }
 .nav__link {
-    padding-right: 16px;
+    margin: 0 12px;
 }
+.nav__link--anchor {
+    text-decoration: none;
+    font-size: 16px;
+    color: #242424;
+    font-weight: 700;
+}
+
+
+
 .landing__container {
     display: flex;
     max-width: 1200px;
