@@ -8,7 +8,7 @@
 .orange {
     color: rgb(255, 0, 0);
 }
-#landing__page {
+#landing-page {
     height: 100vh;
     margin: 0px 32px;
 }
@@ -29,7 +29,7 @@ nav {
     height: 40px; 
     width: 40px;
 }
-.nav__links {
+.nav__link--list {
     display: flex;
     align-items: center;
     list-style: none;
